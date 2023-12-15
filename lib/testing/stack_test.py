@@ -68,5 +68,5 @@ class TestStack:
         assert(stk.search(9) == 1)
         assert(stk.search(10) == 0)
 
-        # Case with target not in Stack
+        #Case with target not in Stack
         assert(stk.search(15) == -1)
